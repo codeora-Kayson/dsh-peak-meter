@@ -8,7 +8,7 @@
 - 仓库：`codeora-Kayson/dsh-peak-meter`
 - GitHub topic：`dsh-plugin`
 
-![统计条与明细卡](image.png)
+![统计条与明细卡](docs/screenshot.png)
 
 ---
 
