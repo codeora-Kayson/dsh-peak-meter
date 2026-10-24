@@ -29,7 +29,8 @@
     "locale/*.json",
     "icon.svg",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "docs/screenshot.png"
   ],
   "dsh": {
     "bundle": { "patch": "./cordis.patch.yml" },
