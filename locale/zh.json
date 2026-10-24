@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DS时段费用参考",
+    "description": "在输入框下方的统计条显示 DeepSeek 平峰/高峰时段、距切换时间、本会话与本轮费用，以及 DeepSeek 账户余额。"
+  }
+}

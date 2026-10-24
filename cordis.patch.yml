@@ -1,0 +1,6 @@
+# dsh-peak-meter bundle patch: one Host row; the browser half rides the same
+# package name through package.json's dsh.client declaration.
+- insert:
+    - id: peak-meter
+      name: 'dsh-peak-meter'
+      config: {}

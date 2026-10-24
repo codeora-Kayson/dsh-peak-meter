@@ -1,0 +1,22 @@
+name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check JavaScript syntax
+        run: |
+          node --check index.js
+          node --check client.js
+      - name: Check manifests
+        run: |
+          node -e "const fs=require('fs'); JSON.parse(fs.readFileSync('package.json','utf8')); console.log('package.json ok')"
+          node -e "const fs=require('fs'); JSON.parse(fs.readFileSync('locale/zh.json','utf8')); JSON.parse(fs.readFileSync('locale/en.json','utf8')); console.log('locale ok')"

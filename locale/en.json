@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DS Pricing & Cost",
+    "description": "Shows DeepSeek peak/off-peak pricing, the time to the next switch, this conversation's and the current turn's cost, plus the DeepSeek account balance, under the composer."
+  }
+}
